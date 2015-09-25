@@ -1,28 +1,24 @@
-/*
- * Metadata describing the module operation
- */
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From",
+            "id": "input",
+            "title":"Input text",
             "type":"string"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From",
-            "type":"array"
+            "id": "text",
+            "title": "Text",
+            "type": "string"
+        },
+        {
+            "id": "url",
+            "title": "URL",
+            "type": "string"
         }
-      */
     ],
     "title": "ddg_abstract" /* Required.A display name for the module */
 }

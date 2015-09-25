@@ -3,10 +3,11 @@
     "version": "0.0.1",
     "description": "",
     "main": "index.js",
-    "author": "Someone Somewhere",
+    "author": "LoisaidaSam",
     "license": "ISC",
     "private": true,
     "dependencies": {
-        "lodash": "^3.9.3"
+        "lodash": "^3.9.3",
+        "request": "2.63.0"
     }
 }
