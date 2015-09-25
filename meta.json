@@ -10,6 +10,11 @@
     //Required. Outputs the module emits.
     "outputs": [
         {
+            "id": "input",
+            "title": "Input",
+            "type": "string"
+        },
+        {
             "id": "text",
             "title": "Text",
             "type": "string"

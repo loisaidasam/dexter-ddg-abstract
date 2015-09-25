@@ -68,6 +68,7 @@ module.exports = {
             if (! result) {
                 return self.fail("I don't know anything about that.");
             }
+            result['input'] = input;
             self.complete(result);
         });
     }
